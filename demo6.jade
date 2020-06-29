@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title
+	body
+		- var lessons = ['a', 'b']
+		if lessons 
+			p more than 2:#{lessons.join(', ')}
+		else 
+			p no lesson
+		
+		h3 unless
+		unless isImooc
+			p #{lessons.length}
+
+		h3 case
+		- var name = 'jade'
+		case name
+			when 'java'
+			when 'node'
+				p Hi node!
+			when 'jade': p Hi jade!
+			when 'express': p Hi express
+			default
+				p Hi #{name} 

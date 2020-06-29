@@ -1,0 +1,20 @@
+doctype html
+head
+	meta(charset='utf-8')
+	- var course = 'gaofeng'
+	title #{course.toUpperCase()} jada 转义
+body
+	h2 转义
+	- var data = 'text'
+	- var htmlData = '<script>alert(1);</script>'
+	p #{data}
+	//p #{htmlData}
+	p !{htmlData}
+	p=data
+	//- p=htmlData
+	p!=htmlData
+	p \!{htmlData}
+	//- p \u{htmlData}
+	input(value=newData)
+	input(value='#{data}')
+
