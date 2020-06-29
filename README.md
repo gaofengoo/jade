@@ -1,4 +1,4 @@
 # jade
 
-demo1.jade    xxx
-demo1.html    xxx
+demo1.jade    css
+demo1.html    css
