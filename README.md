@@ -14,3 +14,9 @@ demo6.jade    条件语句
 demo6.html    条件语句
 demo7.jade    mixin
 demo7.html    mixin
+demo8.jade    属性
+demo8.html    属性
+demo9.jade    条件
+demo9.html    条件
+demo10.jade   内联代码
+demo10.html   内联代码

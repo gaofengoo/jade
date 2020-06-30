@@ -8,7 +8,7 @@ body
 		p jade study
 	+lesson
 
-	mixin study(name, course)
+	mixin study(name, courses)
 		p #{name}
 		ul.courses
 			each course in courses
@@ -28,7 +28,6 @@ body
 		else 
 			p no team
 
-
 	+team('slogon')
 		p Good job!
 
@@ -47,4 +46,4 @@ body
 			each item in items
 				li=item
 
-	+magin('magic', 'node', 'jade', '..')
+	+magic('magic', 'node', 'jade', '..')

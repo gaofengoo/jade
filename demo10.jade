@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		title
+	body
+		- for (var x = 0; x < 3; x++)
+			li item
+		- list = ['a', 'b', 'c', 'd']
+		each item in list
+			li=item
+		p!='This code is' + '<strong>not</strong>escaped!'

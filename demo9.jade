@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		title
+	body
+		- var friends = 10
+		case friends
+			when 0
+			when 1
+				p you have very few friend
+			default
+				p you have #{friends} friends
+
+		- var friends2 = 5
+		case friends
+			when 0: no
+			when 1: p you have a friend
+			default: p you have #{friends2} friends

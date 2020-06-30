@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title
+	- var boolean1 = true
+	body(class=boolean1 ? 'one' : 'two')
+		a(href='www.baidu.com') baidu
+		a(class='button', href='www.baidu.com') baidu
+		input(type='checkbox' name='agreement' checked)
+		div(name='<code>')
+		div(name!='<code>')
+		a(style={color: 'red', background: 'green'})
+		- var classes = ['a', 'b', 'c']
+		a(class=classes)
+		a.bing(class=classes class=['bing'])
+		- var currentUrl = '/about'
+		a(class={active: currentUrl === '/'} href='/') Home
+		a(class={active: currentUrl === '/about'} href='/') Home
+		a.button
+		.content
+		a#main
+		#main
+		div#foo(data-bar="foo")&attributes({'data-foo':'bar'})
