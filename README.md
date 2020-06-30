@@ -18,5 +18,11 @@ demo8.jade    属性
 demo8.html    属性
 demo9.jade    条件
 demo9.html    条件
-demo10.jade   内联代码
-demo10.html   内联代码
+demo10.jade   循环2
+demo10.html   循环2
+demo11.jade   模板继承
+demo11.html   模板继承
+demo12.jade   模板继承2
+demo12.html   模板继承2
+demo13.jade   筛选器
+demo13.html   筛选器
