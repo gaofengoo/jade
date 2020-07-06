@@ -4,7 +4,7 @@ html
 		title
 	body
 		- var lessons = ['a', 'b']
-		if unless lessons 
+		if !lessons 
 			p more than 2:#{lessons.join(', ')}
 		else 
 			p no lesson
