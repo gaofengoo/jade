@@ -4,7 +4,7 @@ html
 		title
 	body
 		- var lessons = ['a', 'b']
-		if lessons 
+		if unless lessons 
 			p more than 2:#{lessons.join(', ')}
 		else 
 			p no lesson
@@ -22,4 +22,4 @@ html
 			when 'jade': p Hi jade!
 			when 'express': p Hi express
 			default
-				p Hi #{name} 
+				p Hi #{name}  
